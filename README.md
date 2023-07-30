@@ -50,3 +50,12 @@ The EHDRI Dataset contains three datasets:
 - **EHDRI-S** contains HDR-LDR image pairs from Kalantari13, HDM-HDR-2014, and DeepHDRVideo. These datasets contain paired LDR-HDR video sequences which can be leveraged to synthesize events. We utilize the ESIM simulator \cite{rebecq2018esim} to synthesize concurrent events.
 - **EBL2SH-SE** contains aligned real-world LDR images, HDR image, and real-world event streams, which are captured by FLIR BFS-U3-32S4 camera and SilkyEvCam event camera.
 - **EBL2SH-DV** contains aligned real-world LDR images, HDR image, and real-world event streams, which are captured by FLIR BFS-U3-04S2 camera and Davis346 event camera.
+
+## Quick start
+### Data preparation
+- Download the EBL2SH-SE to directory './Dataset/'
+- 
+### Test
+- Test on EBL2SH-SE
+```
+bash test.sh
