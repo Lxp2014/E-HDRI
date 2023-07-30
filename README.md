@@ -18,7 +18,7 @@ Single-exposure High Dynamic Range Imaging (HDRI), as a typical ill-posed proble
     display: inline-block;
     color: #000;
     padding: 2px;">
-      Quantitative comparisons on EBL2SH-SE
+      Qualitative comparisons on EBL2SH-SE
   	</div>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
