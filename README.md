@@ -55,5 +55,5 @@ The EHDRI Dataset contains three datasets:
 ### Data preparation
 Download the EBL2SH-SE to directory './Dataset/'
 ### Test
-conda activate EHDRI
-bash test.sh
+-conda activate EHDRI
+-bash test.sh
