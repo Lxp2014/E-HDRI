@@ -43,7 +43,7 @@ cd EHDRI
 conda env create -f EHDRI.yaml
 ```
 
-## EBL2SH-ERGB Dataset Benchmark
+## Event-baed HDRI Dataset Benchmark
 [The datasets](https://drive.google.com/drive/folders/) can be downloaded via Google Drive.
 <br>
 The EHDRI Dataset contains three datasets:
