@@ -47,7 +47,7 @@ conda env create -f EHDRI.yaml
 [The datasets](https://pan.baidu.com/s/1gWCJyBvtuyKJSI5P_5f4LA?pwd=52pa) can be downloaded via Baidu Drive.
 <br>
 The EHDRI Dataset contains three datasets:
-- **EHDRI-S** contains HDR-LDR image pairs from Kalantari13, HDM-HDR-2014, and DeepHDRVideo. These datasets contain paired LDR-HDR video sequences which can be leveraged to synthesize events. We utilize the ESIM simulator \cite{rebecq2018esim} to synthesize concurrent events.
+- **EHDRI-S** contains HDR-LDR image pairs from Kalantari13, HDM-HDR-2014, and DeepHDRVideo. These datasets contain paired LDR-HDR video sequences which can be leveraged to synthesize events. We utilize the ESIM simulator to synthesize concurrent events.
 - **EHDRI-SE** contains aligned real-world LDR images, HDR image, and real-world event streams, which are captured by FLIR BFS-U3-32S4 camera and SilkyEvCam event camera.
 - **EHDRI-DV** contains aligned real-world LDR images, HDR image, and real-world event streams, which are captured by FLIR BFS-U3-04S2 camera and Davis346 event camera.
 
