@@ -44,7 +44,7 @@ conda env create -f EHDRI.yaml
 ```
 
 ## Event-baed HDRI Dataset Benchmark
-[The datasets](https://drive.google.com/drive/folders/) can be downloaded via Google Drive.
+[The datasets](https://pan.baidu.com/s/1gWCJyBvtuyKJSI5P_5f4LA?pwd=52pa) can be downloaded via Baidu Drive.
 <br>
 The EHDRI Dataset contains three datasets:
 - **EHDRI-S** contains HDR-LDR image pairs from Kalantari13, HDM-HDR-2014, and DeepHDRVideo. These datasets contain paired LDR-HDR video sequences which can be leveraged to synthesize events. We utilize the ESIM simulator \cite{rebecq2018esim} to synthesize concurrent events.
