@@ -6,7 +6,7 @@ Single-exposure High Dynamic Range Imaging (HDRI), as a typical ill-posed proble
     display: inline-block;
     color: #000;
     padding: 2px;">
-      Quantitative comparisons on EHDRD-SE
+      Quantitative comparisons on EHDRD-RSE
   	</div>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -18,7 +18,7 @@ Single-exposure High Dynamic Range Imaging (HDRI), as a typical ill-posed proble
     display: inline-block;
     color: #000;
     padding: 2px;">
-      Qualitative comparisons on EBL2SH-SE
+      Qualitative comparisons on EHDRD-RSE
   	</div>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -30,7 +30,7 @@ Single-exposure High Dynamic Range Imaging (HDRI), as a typical ill-posed proble
     display: inline-block;
     color: #000;
     padding: 2px;">
-      Qualitative comparisons on EBL2SH-DV
+      Qualitative comparisons on EHDRD-RDV
   	</div>
     <img style="border-radius: 0.3125em;
     box-shadow: 0 2px 4px 0 rgba(34,36,38,.12),0 2px 10px 0 rgba(34,36,38,.08);" 
@@ -58,13 +58,13 @@ conda env create -f EHDRI.yaml
 [The datasets](https://pan.baidu.com/s/1gWCJyBvtuyKJSI5P_5f4LA?pwd=52pa) can be downloaded via Baidu Drive.
 <br>
 The EHDRI Dataset contains three datasets:
-- **EHDRI-S** contains HDR-LDR image pairs from Kalantari13, HDM-HDR-2014, and DeepHDRVideo. These datasets contain paired LDR-HDR video sequences which can be leveraged to synthesize events. We utilize the ESIM simulator to synthesize concurrent events.
-- **EHDRI-SE** contains aligned real-world LDR images, HDR image, and real-world event streams, which are captured by FLIR BFS-U3-32S4 camera and SilkyEvCam event camera.
-- **EHDRI-DV** contains aligned real-world LDR images, HDR image, and real-world event streams, which are captured by FLIR BFS-U3-04S2 camera and Davis346 event camera.
+- **EHDRD-S** contains HDR-LDR image pairs from Kalantari13, HDM-HDR-2014, and DeepHDRVideo. These datasets contain paired LDR-HDR video sequences which can be leveraged to synthesize events. We utilize the ESIM simulator to synthesize concurrent events.
+- **EHDRD-RSE** contains aligned real-world LDR images, HDR image, and real-world event streams, which are captured by FLIR BFS-U3-32S4 camera and SilkyEvCam event camera.
+- **EHDRD-RDV** contains aligned real-world LDR images, HDR image, and real-world event streams, which are captured by FLIR BFS-U3-04S2 camera and Davis346 event camera.
 
 ## Quick start
 ### Data preparation
-Download the EBL2SH-SE to directory './Dataset/'
+Download the EHDRD-RSE to directory './Dataset/'
 ### Test
 ```
 conda activate EHDRI
